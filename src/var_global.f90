@@ -12,10 +12,10 @@
 
 
 module var_global
-! global variabls used by multiple modules
-use mpi
-
 implicit none
+! global variabls used by multiple modules
+include 'mpif.h'
+
 
 type run_time ! parameters to show the program execution time
   real*8 sFCDI,eFCDI,sFC,eFC,sDI,eDI

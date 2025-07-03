@@ -35,7 +35,7 @@ module libsisso
 ! dispp: distance from a point to a plane
 !************************************************************************
 
-use mpi
+use var_global
 
 contains
 
